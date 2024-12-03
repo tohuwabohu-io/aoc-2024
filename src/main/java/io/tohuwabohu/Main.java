@@ -32,6 +32,8 @@ public class Main {
 
             System.out.print("Part 01:\t");
             System.out.println(day03.part1("src/main/resources/day03.txt"));
+            System.out.print("Part 02:\t");
+            System.out.println(day03.part2("src/main/resources/day03.txt"));
 
         } catch (Exception e) {
             e.printStackTrace();
